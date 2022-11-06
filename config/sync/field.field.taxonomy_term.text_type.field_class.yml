@@ -1,0 +1,19 @@
+uuid: 69d311f0-87b7-450d-9220-b7480dee9d55
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_class
+    - taxonomy.vocabulary.text_type
+id: taxonomy_term.text_type.field_class
+field_name: field_class
+entity_type: taxonomy_term
+bundle: text_type
+label: Class
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

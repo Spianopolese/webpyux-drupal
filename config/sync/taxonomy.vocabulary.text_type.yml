@@ -1,0 +1,8 @@
+uuid: 189b390d-54f3-42c5-b5e4-41041498b67b
+langcode: en
+status: true
+dependencies: {  }
+name: 'Text type'
+vid: text_type
+description: ''
+weight: 0

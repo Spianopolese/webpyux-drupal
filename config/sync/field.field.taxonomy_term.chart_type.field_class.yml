@@ -1,0 +1,19 @@
+uuid: ac5f9c4d-e48b-499b-9cb3-845e9c79682b
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_class
+    - taxonomy.vocabulary.chart_type
+id: taxonomy_term.chart_type.field_class
+field_name: field_class
+entity_type: taxonomy_term
+bundle: chart_type
+label: Class
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

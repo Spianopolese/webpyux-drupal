@@ -1,0 +1,32 @@
+uuid: a2a72516-1a13-4d0c-817d-06c6a91de979
+langcode: en
+status: true
+dependencies:
+  config:
+    - rest.resource.alive
+    - rest.resource.auth
+    - rest.resource.login
+    - rest.resource.menu
+    - rest.resource.page
+    - rest.resource.sum_test
+    - rest.resource.table
+    - rest.resource.widget
+  module:
+    - rest
+    - system
+_core:
+  default_config_hash: j5zLMOdJBqC0bMvSdth5UebkprJB8g_2FXHqhfpJzow
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access content'
+  - 'restful get alive'
+  - 'restful get auth'
+  - 'restful get menu'
+  - 'restful get page'
+  - 'restful get sum_test'
+  - 'restful get table'
+  - 'restful get widget'
+  - 'restful post login'

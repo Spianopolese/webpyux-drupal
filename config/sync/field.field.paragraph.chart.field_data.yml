@@ -1,0 +1,21 @@
+uuid: 790fbd9e-fbbc-432f-8c9f-c296815efc52
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_data
+    - paragraphs.paragraphs_type.chart
+  module:
+    - json_field
+id: paragraph.chart.field_data
+field_name: field_data
+entity_type: paragraph
+bundle: chart
+label: Data
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: json

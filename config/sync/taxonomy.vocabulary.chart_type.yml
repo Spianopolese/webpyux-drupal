@@ -1,0 +1,8 @@
+uuid: ce18ff88-b985-4bb5-8e60-a823f11d8a6f
+langcode: en
+status: true
+dependencies: {  }
+name: 'Chart Type'
+vid: chart_type
+description: ''
+weight: 0

@@ -1,0 +1,20 @@
+uuid: de2d3547-2a20-4dd3-9cfb-b8d9b3e019c7
+langcode: en
+status: true
+dependencies:
+  module:
+    - paragraphs
+    - taxonomy
+id: paragraph.field_chart_type_ref
+field_name: field_chart_type_ref
+entity_type: paragraph
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

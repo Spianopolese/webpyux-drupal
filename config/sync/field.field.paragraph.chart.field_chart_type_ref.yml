@@ -1,0 +1,29 @@
+uuid: d01e2a41-9512-4cf1-b677-58d2861fe209
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_chart_type_ref
+    - paragraphs.paragraphs_type.chart
+    - taxonomy.vocabulary.chart_type
+id: paragraph.chart.field_chart_type_ref
+field_name: field_chart_type_ref
+entity_type: paragraph
+bundle: chart
+label: 'Chart Type'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      chart_type: chart_type
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

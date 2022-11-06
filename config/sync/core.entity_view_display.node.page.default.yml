@@ -1,0 +1,30 @@
+uuid: fdbd7d35-6f3f-4d65-b2ff-a793e7035b44
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.page.field_widgets_ph
+    - node.type.page
+  module:
+    - entity_reference_revisions
+    - user
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  field_widgets_ph:
+    type: entity_reference_revisions_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: ''
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

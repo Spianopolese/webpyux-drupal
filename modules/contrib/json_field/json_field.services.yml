@@ -1,0 +1,6 @@
+services:
+  json_field.views:
+    class: Drupal\json_field\JsonViews
+  json_field.requirements:
+    class: Drupal\json_field\JsonFieldRequirements
+    arguments: ['%app.root%']

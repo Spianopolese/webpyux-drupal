@@ -1,0 +1,37 @@
+uuid: f4a09851-cea8-4e74-acf4-c3d4e297e843
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.chart_type.field_class
+    - taxonomy.vocabulary.chart_type
+id: taxonomy_term.chart_type.default
+targetEntityType: taxonomy_term
+bundle: chart_type
+mode: default
+content:
+  field_class:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  name:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    weight: 2
+    region: content
+    settings:
+      display_label: true
+    third_party_settings: {  }
+hidden:
+  description: true

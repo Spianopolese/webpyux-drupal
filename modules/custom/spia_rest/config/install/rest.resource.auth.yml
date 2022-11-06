@@ -1,0 +1,16 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - paragraphs
+    - serialization
+id: auth
+plugin_id: auth
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie

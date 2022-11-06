@@ -1,0 +1,17 @@
+uuid: 3840c5b5-5075-430e-8f6e-1724de46a914
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: cCiWdBHgLwj5omG35lsKc4LkW4MBdmcctkVop4ol5x0
+name: thumbnail
+label: Thumbnail
+effects:
+  aa5483f5-abfa-4cd2-8da0-c0e316ecefb2:
+    uuid: aa5483f5-abfa-4cd2-8da0-c0e316ecefb2
+    id: image_scale_and_crop
+    weight: 2
+    data:
+      width: 50
+      height: 50
+      anchor: center-center

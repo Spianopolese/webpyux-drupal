@@ -1,0 +1,18 @@
+uuid: 640270cb-6032-43ee-8d04-c4f12af9ba1a
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - spia_rest
+    - user
+id: sum_test
+plugin_id: sum_test
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

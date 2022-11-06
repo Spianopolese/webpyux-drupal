@@ -1,0 +1,39 @@
+uuid: 228eac4e-b326-4b4e-a3c8-5d69259312dd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_widgets_ph
+    - node.type.page
+    - paragraphs.paragraphs_type.chart
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+id: node.page.field_widgets_ph
+field_name: field_widgets_ph
+entity_type: node
+bundle: page
+label: Widgets
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      chart: chart
+      text: text
+    negate: 0
+    target_bundles_drag_drop:
+      chart:
+        weight: 3
+        enabled: true
+      chart_data:
+        weight: 4
+        enabled: false
+      text:
+        weight: 6
+        enabled: true
+field_type: entity_reference_revisions

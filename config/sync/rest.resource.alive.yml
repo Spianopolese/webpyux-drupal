@@ -1,0 +1,18 @@
+uuid: b4682275-3943-47a3-a7d9-e5c048c6786f
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - spia_rest
+    - user
+id: alive
+plugin_id: alive
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

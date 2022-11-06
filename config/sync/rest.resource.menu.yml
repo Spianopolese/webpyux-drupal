@@ -1,0 +1,18 @@
+uuid: 5a638ca0-d3b9-4d94-be18-8ba10a9f1aeb
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - spia_rest
+    - user
+id: menu
+plugin_id: menu
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

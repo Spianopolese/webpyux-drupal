@@ -1,0 +1,12 @@
+langcode: en
+status: true
+id: login
+plugin_id: login
+granularity: method
+configuration:
+  POST:
+    supported_formats:
+      - json
+      - xml
+    supported_auth:
+      - cookie

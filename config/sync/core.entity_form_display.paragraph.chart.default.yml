@@ -1,0 +1,41 @@
+uuid: ceae2487-5edf-4710-a18d-bfcf1f11757a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.chart.field_chart_type_ref
+    - field.field.paragraph.chart.field_data
+    - field.field.paragraph.chart.field_label
+    - paragraphs.paragraphs_type.chart
+  module:
+    - json_field
+id: paragraph.chart.default
+targetEntityType: paragraph
+bundle: chart
+mode: default
+content:
+  field_chart_type_ref:
+    type: options_buttons
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_data:
+    type: json_textarea
+    weight: 3
+    region: content
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+  field_label:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

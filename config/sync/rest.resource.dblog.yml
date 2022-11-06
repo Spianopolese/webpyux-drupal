@@ -1,0 +1,18 @@
+uuid: c24fd9cd-1305-46a5-8df2-ce098f6defef
+langcode: en
+status: false
+dependencies:
+  module:
+    - dblog
+    - serialization
+    - user
+id: dblog
+plugin_id: dblog
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

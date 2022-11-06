@@ -1,0 +1,19 @@
+uuid: 9b43a693-d73d-4b57-b8ac-5826c9941181
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: user.field_access_token
+field_name: field_access_token
+entity_type: user
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

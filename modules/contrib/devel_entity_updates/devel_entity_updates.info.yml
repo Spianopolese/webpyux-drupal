@@ -1,0 +1,14 @@
+type: module
+name: Devel Entity Updates
+description: 'Provides developers an API and drush command to perform automatic entity updates.'
+core_version_requirement: ^9
+package: Development
+tags:
+ - developer
+dependencies:
+ - devel
+
+# Information added by Drupal.org packaging script on 2022-05-16
+version: '4.0.0'
+project: 'devel_entity_updates'
+datestamp: 1652693383

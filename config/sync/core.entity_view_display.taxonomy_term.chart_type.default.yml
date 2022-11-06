@@ -1,0 +1,30 @@
+uuid: f408a211-fb76-4ae9-8afc-33d177e2102e
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.taxonomy_term.chart_type.field_class
+    - taxonomy.vocabulary.chart_type
+  module:
+    - text
+id: taxonomy_term.chart_type.default
+targetEntityType: taxonomy_term
+bundle: chart_type
+mode: default
+content:
+  description:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_class:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden: {  }

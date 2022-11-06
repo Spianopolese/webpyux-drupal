@@ -1,0 +1,7 @@
+/sites/*/*settings*.php
+/sites/*/*services*.yml
+/sites/deafult
+sites/default
+data-dump.sql
+robots.txt
+.idea

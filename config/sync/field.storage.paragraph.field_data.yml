@@ -1,0 +1,20 @@
+uuid: eed01c18-5324-46eb-a602-036c8d81e8d9
+langcode: en
+status: true
+dependencies:
+  module:
+    - json_field
+    - paragraphs
+id: paragraph.field_data
+field_name: field_data
+entity_type: paragraph
+type: json
+settings:
+  size: 4294967296
+module: json_field
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

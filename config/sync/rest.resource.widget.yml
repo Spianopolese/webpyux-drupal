@@ -1,0 +1,18 @@
+uuid: bec62362-903c-4940-b907-9c4df94017c6
+langcode: en
+status: true
+dependencies:
+  module:
+    - serialization
+    - spia_rest
+    - user
+id: widget
+plugin_id: widget
+granularity: resource
+configuration:
+  methods:
+    - GET
+  formats:
+    - json
+  authentication:
+    - cookie

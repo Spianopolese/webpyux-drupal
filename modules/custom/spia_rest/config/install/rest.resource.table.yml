@@ -1,0 +1,11 @@
+langcode: en
+status: true
+id: table
+plugin_id: table
+granularity: method
+configuration:
+  GET:
+    supported_formats:
+      - json
+    supported_auth:
+      - cookie
