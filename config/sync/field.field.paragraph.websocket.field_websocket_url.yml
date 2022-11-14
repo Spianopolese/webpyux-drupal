@@ -1,0 +1,19 @@
+uuid: 7db9d921-818c-47ee-8deb-16e098c6d16d
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_websocket_url
+    - paragraphs.paragraphs_type.websocket
+id: paragraph.websocket.field_websocket_url
+field_name: field_websocket_url
+entity_type: paragraph
+bundle: websocket
+label: 'WebSocket url'
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,41 @@
+uuid: e0442135-e1a3-4b7a-b712-60ef2b8ab3bd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.websocket.field_label
+    - field.field.paragraph.websocket.field_topic
+    - field.field.paragraph.websocket.field_websocket_url
+    - paragraphs.paragraphs_type.websocket
+id: paragraph.websocket.default
+targetEntityType: paragraph
+bundle: websocket
+mode: default
+content:
+  field_label:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_topic:
+    type: string_textfield
+    weight: 1
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_websocket_url:
+    type: string_textfield
+    weight: 2
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  created: true
+  status: true

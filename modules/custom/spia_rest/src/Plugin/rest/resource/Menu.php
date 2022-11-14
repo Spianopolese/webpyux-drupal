@@ -159,7 +159,8 @@ class Menu extends ResourceBase
           $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($tid);
           $class = $term->get('field_class')->getValue();
           $sub_data['label'] = $term->get('name')->value;
-          $sub_data['class'] = $class[0]['value'];
+          $sub_data['class'] = $paragraph->bundle();
+          $sub_data['type'] = $class[0]['value'];
           $sub_data['url'] = $host.$base_url.'/rest/widget/'.$paragraph->id();
           $data[$bundle]['dataset']['widget-'.$paragraph->id()]['widgets'][] = $sub_data;
         }

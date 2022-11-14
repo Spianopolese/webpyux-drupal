@@ -1,0 +1,39 @@
+uuid: aeca6b0e-1b6c-40a6-9542-c26c25df6afa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.websocket.field_label
+    - field.field.paragraph.websocket.field_topic
+    - field.field.paragraph.websocket.field_websocket_url
+    - paragraphs.paragraphs_type.websocket
+id: paragraph.websocket.default
+targetEntityType: paragraph
+bundle: websocket
+mode: default
+content:
+  field_label:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_topic:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_websocket_url:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

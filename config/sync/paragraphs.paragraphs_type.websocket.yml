@@ -1,0 +1,10 @@
+uuid: 854409ad-3375-400e-94f5-5feb8fde7b1f
+langcode: en
+status: true
+dependencies: {  }
+id: websocket
+label: WebSocket
+icon_uuid: null
+icon_default: null
+description: ''
+behavior_plugins: {  }

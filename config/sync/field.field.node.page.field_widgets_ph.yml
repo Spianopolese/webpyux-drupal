@@ -7,6 +7,7 @@ dependencies:
     - node.type.page
     - paragraphs.paragraphs_type.chart
     - paragraphs.paragraphs_type.text
+    - paragraphs.paragraphs_type.websocket
   module:
     - entity_reference_revisions
 id: node.page.field_widgets_ph
@@ -25,15 +26,16 @@ settings:
     target_bundles:
       chart: chart
       text: text
+      websocket: websocket
     negate: 0
     target_bundles_drag_drop:
       chart:
         weight: 3
         enabled: true
-      chart_data:
-        weight: 4
-        enabled: false
       text:
+        weight: 6
+        enabled: true
+      websocket:
         weight: 6
         enabled: true
 field_type: entity_reference_revisions

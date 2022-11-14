@@ -152,11 +152,13 @@ class Widget extends ResourceBase
         $json = preg_replace('!\\r?\\n!', "", $paragraph->get('field_data')->getValue()[0]['value']);
         $tid = $paragraph->get('field_chart_type_ref')->getValue()[0]['target_id'];
         $term = \Drupal::entityTypeManager()->getStorage('taxonomy_term')->load($tid);
+        $class = $term->get('field_class')->getValue();
         $data = [
           'label' => $label_value,
           'list_view_dataset' => $label_value,
           'list_view_label' => $term->get('name')->value,
           'class' => $paragraph->bundle(),
+          'type' => $class[0]['value'],
           'data' => json_decode($json,true),
           'size' => ''
         ];

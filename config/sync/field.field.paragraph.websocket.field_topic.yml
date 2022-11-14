@@ -1,0 +1,19 @@
+uuid: 4e5272d2-52df-49e7-9905-0f0df65b6ca8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.paragraph.field_topic
+    - paragraphs.paragraphs_type.websocket
+id: paragraph.websocket.field_topic
+field_name: field_topic
+entity_type: paragraph
+bundle: websocket
+label: Topic
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
